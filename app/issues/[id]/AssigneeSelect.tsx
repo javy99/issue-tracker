@@ -17,8 +17,6 @@ const AssigneeSelect = () => {
         fetchUsers();
     }, [])
 
-    console.log(users)
-
     return (
         <Select.Root>
             <Select.Trigger placeholder='Assign...' />
