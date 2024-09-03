@@ -15,7 +15,7 @@ import Spinner from '@/app/components/Spinner';
 
 type IssueForm = z.infer<typeof createIssueSchema>;
 
-const SimpleMDE = dynamic(() => import("react-simplemde-editor"), { ssr: false });
+const SimpleMDE = dynamic(() => import("react-simplemde-editor"), { ssr: false }); // add dynamic import for SSR
 
 const NewIssuePage = () => {
     const [error, setError] = useState<string>('')
