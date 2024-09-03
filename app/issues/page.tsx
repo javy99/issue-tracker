@@ -42,4 +42,7 @@ const IssuesPage = async () => {
     )
 }
 
+export const dynamic = 'force-dynamic'
+// export const revalidate = 0; // same as export const dynamic = 'force-dynamic'
+
 export default IssuesPage
