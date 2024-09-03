@@ -15,8 +15,7 @@ const IssueDetailPage = async ({ params: { id } }: Props) => {
         }
     })
 
-    if (!issue)
-        notFound();
+    if (!issue) notFound();
 
     return (
         <div>
