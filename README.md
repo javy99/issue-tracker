@@ -43,6 +43,9 @@ To run the Issue Tracker app locally, follow these steps:
 
 Open http://localhost:3000 in your browser to view the application.
 
+## Environment Variables
+
+To run the application, you'll need to set up a `.env` file with the required environment variables. 
 
 ### Instructions for Setting Up the `.env` File
 
